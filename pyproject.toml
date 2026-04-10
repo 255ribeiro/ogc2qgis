@@ -1,0 +1,55 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "ogc2qgis"
+version = "0.1.1"
+description = "Convert OGC Web Services (WMS, WCS, WFS) GetCapabilities to QGIS connection configurations"
+authors = ["OGC2QGIS Contributors"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/255ribeiro/ogc2qgis"
+repository = "https://github.com/255ribeiro/ogc2qgis"
+documentation = "https://github.com/255ribeiro/ogc2qgis#readme"
+keywords = ["qgis", "ogc", "wms", "wcs", "wfs", "gis", "geospatial", "capabilities"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: GIS",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+packages = [{include = "ogc2qgis", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+black = "^23.0"
+ruff = "^0.1"
+mypy = "^1.0"
+
+[tool.poetry.scripts]
+ogc2qgis = "ogc2qgis.cli.main:main"
+
+[tool.black]
+line-length = 100
+target-version = ['py38']
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
