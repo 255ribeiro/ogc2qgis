@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "ogc2qgis"
-version = "0.1.1"
+version = "0.1.2"
 description = "Convert OGC Web Services (WMS, WCS, WFS) GetCapabilities to QGIS connection configurations"
 authors = ["Fernando Ferraz Ribeiro <ffribeiro@gmail.com>"]
 license = "MIT"

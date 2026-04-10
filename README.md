@@ -159,8 +159,8 @@ Contributions welcome! Please feel free to submit a Pull Request.
 ## 🔗 Links
 
 - **PyPI**: https://pypi.org/project/ogc2qgis/
-- **Source Code**: https://github.com/ogc2qgis/ogc2qgis
-- **Issue Tracker**: https://github.com/ogc2qgis/ogc2qgis/issues
+- **Source Code**: https://github.com/255ribeiro/ogc2qgis
+- **Issue Tracker**: https://github.com/255ribeiro/ogc2qgis/issues
 - **QGIS**: https://qgis.org/
 - **OGC Standards**: https://www.ogc.org/
 

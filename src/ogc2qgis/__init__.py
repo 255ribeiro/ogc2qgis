@@ -17,6 +17,7 @@ from ogc2qgis.core import (
     detect_service_type,
     fetch_and_convert,
 )
+from ogc2qgis.compare import compare_configs
 
 __all__ = [
     "WMSParser",
@@ -25,4 +26,5 @@ __all__ = [
     "parse_capabilities",
     "detect_service_type",
     "fetch_and_convert",
+    "compare_configs",
 ]
