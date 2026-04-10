@@ -6,7 +6,7 @@ build-backend = "poetry.core.masonry.api"
 name = "ogc2qgis"
 version = "0.1.1"
 description = "Convert OGC Web Services (WMS, WCS, WFS) GetCapabilities to QGIS connection configurations"
-authors = ["OGC2QGIS Contributors"]
+authors = ["Fernando Ferraz Ribeiro <ffribeiro@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/255ribeiro/ogc2qgis"
@@ -36,6 +36,7 @@ pytest = "^7.0"
 black = "^23.0"
 ruff = "^0.1"
 mypy = "^1.0"
+taskipy = "^1.14.1"
 
 [tool.poetry.scripts]
 ogc2qgis = "ogc2qgis.cli.main:main"
@@ -53,3 +54,18 @@ python_version = "3.8"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = false
+
+
+[tool.taskipy.tasks]
+
+lint = 'ruff check . && ruff check . --diff'
+format = 'ruff check . --fix && ruff format .'
+
+
+# build for pypi
+pbld = {cmd = "poetry build", echo=true}
+# upload to pypi
+ppub = {cmd = "poetry publish", echo=true}
+# build and upload to pypi
+pypi ={cmd = "task pbld && task ppub", echo=true}
+
