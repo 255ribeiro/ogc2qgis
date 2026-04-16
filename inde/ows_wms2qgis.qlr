@@ -1,0 +1,1613 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+    <layer-tree-group>
+        <custom-properties />
+        <layer-tree-group name="GeoServer INDE" checked="Qt::Checked" expanded="1">
+            <custom-properties />
+            <layer-tree-group name="AER" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="7cd546c3baec40c88592f81e1f6036f4" name="4 - AER - Sistema Aeroportuário" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=aer&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="78e74bd427c841d290e14a72637a961d" name="4 - AER Pista Ponto de Pouso" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=aer_pista_ponto_pouso_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="CBGE" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="e05aef33903b4a83895535021ea3eb28" name="4 - CBGE - Classes Base do Mapeamento Topográfico em Grandes Escalas" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="c1357639039a489282dc662c065a6072" name="3 - CBGE 1.1" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_1.1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="d56b08f8c51442369cfd3dd35caeaaa8" name="4 - CBGE Área de Propriedade Particular" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_area_de_propriedade_particular_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="1de939715c25497a945cae5c2f51e149" name="4 - CBGE Área Duto" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_area_duto_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="e207a1c35e03452ea5863a6fe2def6dd" name="4 - CBGE Área Não Edificada" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_area_nao_edificada_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="7124f053dc7a4218bf672e79308409a3" name="4 - CBGE Área de Uso Específico" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_area_uso_especifico_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="3ff78a8ac31a42cda142ab435890a709" name="4 - CBGE Canteiro Central" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_canteiro_central_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="8636af993dcd404e9beae1d7b50bf440" name="4 - CBGE Cemitério" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_cemiterio_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="c8a4b329a8c24891a0a51adbd27b1b16" name="4 - CBGE Delimitação Física" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_delimitacao_fisica_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="a84eab4ec62b4d0796c3f70042f4c553" name="4 - CBGE Depósito Geral" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_deposito_geral_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="3b6eeaade14d40db9cd0fdee669ff869" name="4 - CBGE Espelho D'Água" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_espelho_dagua_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="efe8a20e7a08499995fe10851055f2ac" name="4 - CBGE Estacionamento" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_estacionamento_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="fca10aa1d434486cb2172e7509f27249" name="4 - CBGE Largo" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_largo_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="0496d0883a384ae5a7621d4e320f7031" name="4 - CBGE Meio Fio" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_meio_fio_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="28900204892e420abf650bca2f0552c6" name="4 - CBGE Passeio" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_passeio_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="4300dbf75b824c66888a313c47c98813" name="4 - CBGE Poste" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_poste_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="0a4cb1c3e1b241aa8939f1596bbfdcc5" name="4 - CBGE Praça" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_praca_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="4e5a6f07dd854e44bd1b8a844f4f3c16" name="4 - CBGE Quadra" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_quadra_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="e82385068d80411ea7c49a5b78f96cd7" name="4 - CBGE Trecho de Arruamento" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_trecho_arruamento_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="450e3b4b8b7d4d4686c818f2eaa3a80a" name="3 - CBGE 1.1 Estacionamento" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=estacionamento_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="dae5ddbfb63c47a0bdff5dc7a1aa7a23" name="3 - CBGE 1.1 Passeio" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=passeio_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="c69341063e7f47979e659cda7fcf23ed" name="3 - CBGE 1.1 Trecho de Arruamento" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=trecho_arruamento_1.1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="DUT" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="309488c7095a449298308796884cbaa0" name="4 - DUT - Sistema de Transporte de Dutos" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=dut&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="24152698643d44e8963f9a59a933ff34" name="4 - DUT Trecho de Duto" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=dut_trecho_duto_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="EDF" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="6a43c25d08f44ea8a920b5a3f126087b" name="4 - EDF - Edificação Total" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="de4beed657d3430e8a79250c8d239784" name="4 - EDF Edficação Cobertura" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_edificacao_cobertura_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="d22aeb7d2633488fb01a1cc2fcd305f6" name="4 - EDF Edificação (A)" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_edificacao_total&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="4575c0d77413440ca818d9b468b36039" name="4 - EDF Edificação (P)" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_edificacao_total_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="d6dcdee78e564d4da15797af91a0b65f" name="4 - EDF Edificação Marquise" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_marquise_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="eac9468104394ddea0c44c7915e0d455" name="4 - EDF Teto Pavimento" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_teto_pavimento_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="EMU" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="7fb98b15ba1a4030850b75c7bd90dff2" name="4 - EMU - Estrutura de Mobilidade Urbana" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="cb9d8071154246e8945b544f2541cc81" name="3 - EMU 1.1" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_1-1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="05b672cf89ef46c3b7ba7600982c64c0" name="3 -  EMU 1.1 Acesso" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=acesso_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="5c4f9739888547cc898a0c11774028b5" name="4 - EMU Acesso" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_acesso_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="8d2b13497e5441379b38b538945d8c3d" name="4 - EMU Ciclovia" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_ciclovia_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="816408a89a8841dfb3cfb384c4b85517" name="4 - EMU Elevador" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_elevador_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="f7a537fe74cb46eca7ba3f5abfce346d" name="4 - EMU Escadaria" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_escadaria_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="7e54ce0eeaea4245ae6a843fe15fc264" name="4 - EMU Poste de Sinalização" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_poste_sinalizacao_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="947dd714d8424358b4e7e900697daec3" name="4 - EMU Rampa" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_rampa_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="a9bcd62c935c42cfb157324cf91f1f25" name="3 - EMU 1.1 Escadaria" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=escadaria_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="ENC" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="e86df307f3574950a5af2adfae0d6e4a" name="4 - ENC - Energia e Comunicação" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="6d0ded64a0b34cb4abf97b88721be2aa" name="4 - ENC Antena Comunicação" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc_antena_comunic_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="b472bcbeee324db38a6a582aeac1a0ca" name="4 - ENC Grupo de Transformadores" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc_grupo_transformadores_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="b225ad3c3b7d4dd7bfdc6a301bcaf592" name="4 - ENC Torre de Comunicação" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc_torre_comunic_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="14da498fc3e445098966467b3b9b2595" name="4 - ENC Torre de Energia" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc_torre_energia_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="FER" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="60b2fb37e65e4f72b762f4d7066247cc" name="4 - FER - Sistema de Transporte Ferroviário" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=fer&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="41edbbf78dd841ec85f632543ec93527" name="4 - FER Trecho Ferroviário" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=fer_trecho_ferroviario_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="HDV" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="c5df81f81f1b4b0e86181c78e4408c29" name="4 - HDV - Sistema Hidroviário" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hdv&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="c792731232714dd4829456ec6490a658" name="4 - HDV Atracadouro Terminal" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hdv_atracadouro_terminal_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="e880a2064c1a4fdeabfea31294b3c0a5" name="4 - HDV Sinalização Hidroviária" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hdv_sinalizacao_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="HID" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="3b68397ffe614efa983055d8e84d8809" name="4 - HID - Hidrografia" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="18521dc4fadf499e955106ad5739b50a" name="4 - HID Área Úmida" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_area_umida_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="b7a224fb75f1411eba73d9297bfdd3ab" name="4 - HID Banco de Areia" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_banco_areia_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="7db87e9fced04e8892317450a00f2deb" name="4 - HID Barragem" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_barragem_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="5f8b9a0e70ea440eabbc1ff18f02e2f7" name="4 - HID Canal" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_canal_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="b78162d036e14b94ad3e2f754ff1b0b0" name="4 - HID Dique Polígono" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_dique_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="af4c949f31334dff964be7fd5dbd85af" name="4 - HID Dique Linha" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_dique_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="bae37200f9b0474ea656cee5e3d61117" name="4 - HID Ilha" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_ilha_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="c00db54b5f0f45c99828ae59905eaf18" name="4 - HID Massa D'água" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_massa_dagua_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="7bee45d444ff4a85b71f2ff0b080bcbc" name="4 - HID Quebramar Molhe" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_quebramar_molhe_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="a849cb78d8514b10b879f5e739a7ffd4" name="4 - HID Queda D'água" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_queda_dagua_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="84749da67a0d45f887c7ded2f29d922f" name="4 - HID Rocha em Água" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_rocha_em_agua_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="712c234ed252457990188e43b594fdb0" name="4 - HID Sumidouro/Vertedouro" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_sumidouro_vertedouro_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="4b9d669bbb8e4c7f936372aa19b67b49" name="4 - HID Trecho Drenagem" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_trecho_drenagem_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="e496ac689aa44ab984af475d36084329" name="4 - HID Vala Polígono" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_vala_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="e30a605445574e31bb1f56330d575e0f" name="4 - HID Vala Linha" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_vala_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="LAZ" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="1188d10bc87746a0aae3872f6289efe0" name="4 - LAZ - Cultura e Lazer" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="ca96b390ce3f468bbdfcd10299d3d909" name="4 - LAZ Aquibancada" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_arquibancada_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="f44c23a7c62143229105c4272208494a" name="4 - LAZ Campo Quadra" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_campo_quadra_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="023fdfc225134067990fc63433e11a05" name="4 - LAZ Deque" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_deque_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="02b1e91277ba40319d089447723656d0" name="4 - LAZ Piscina" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_piscina_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="b0b23ee280534cbaa6519382b1d84ef0" name="4 - LAZ Pista de Competição" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_pista_competicao_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="MDS" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="2b0a98d10c6e49099598cdb015e6ab67" name="2 - MDS - Modelo Digital de Superfície" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mds&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="5ede68110d974a79be3bc0135e12302b" name="2 - MDS Lote 01" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDS_Lote_01&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="2b540aa4e7b5400d8b3aaff74b7ec955" name="2 - MDS Lote 02" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDS_Lote_02&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="MDT" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="116047c069fd42b7b2f010049011991a" name="2 - MDT - Modelo Digital de Terreno" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mdt&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="45ec2bfc9b4147ebb9ed376bbdb57ec9" name="2 - MDT Lote 01" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_01&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="373d68e55724437bae3165e46bbe9cfc" name="2 - MDT Lote 02" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_02&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="64fd92e13f4e40e4b30710bed1ab01de" name="2 - MDT Lote 03 Continental" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_03_Continental&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="31c817b8fd7b4c0da14e5d2e2e3defbb" name="2 - MDT Lote 03 Ilha Frades" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_03_Ilha_Frades&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="4a52b1deba1a4fa39cfd1938b496cc54" name="2 - MDT Lote 03 Ilha Mare" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_03_Ilha_Mare&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="REL" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="29c299ae8a0648d4af2bf229235aff23" name="4 - REL - Relevo" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="0e0de88d54fa4c8eafd3d15c0ac231ba" name="4 - REL Aterro" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_aterro_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="0b470a5c15b9400a8d592d20845a68a4" name="4 - REL Corte Polígono" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_corte_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="6386169f237141568bb0e98783d33a85" name="4 - REL Corte Linha" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_corte_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="9ab3213ecef94c049c349a317c713b09" name="4 - REL Curva de Nível" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_curva_nivel_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="3ee7211efffe4c0e8bcb7c1a87fb1040" name="4 - REL Ponto Cotado Altimétrico" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_ponto_cotado_altimetrico_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="ee639a7503b645ee82c6490fb702bef3" name="4 - REL Rocha" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_rocha_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="7482a4863bcc4912922a9d5aa4ba31bd" name="4 - REL Terreno Exposto" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_terreno_exposto_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="TRA" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="c80cb0d8060c4bd599d447c78f6c63bb" name="4 - TRA - Sistema de Transporte" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="fd81ba69062b4702906a8cb8ced412fd" name="3 - TRA 1.1" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_1-1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="1ef1157bac95439d9071a81ec03b2e0e" name="3 - TRA 1.1 Passagem Elevada ou Viaduto" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=passagem_elevada_viaduto_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="43f384d0a5ba47ab88f5971cef37bef3" name="3 - TRA 1.1 Ponte" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ponte_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="48c7cb0a1f914b4e9fcd0ac17f2e157a" name="4 - TRA Passagem Elevada ou Viaduto" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_passagem_elevada_viaduto_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="e7ec7d66e19545af8f28a15d917f425b" name="4 - TRA Pátio" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_patio_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="e83417fae321488da8c46a558faa75a4" name="4 - TRA Ponte(A)" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_ponte_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="a6ace83b25e8423392a165e824efd0cc" name="4 - TRA Ponte(L)" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_ponte_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="caa88948b7bb424fae433e82a984a95c" name="4 - TRA Travessia de Pedestre" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_travessia_pedestre_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="24567b93e665405ab60cba1b116219f3" name="4 - TRA Travessia de Pedestre(L)" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_travessia_pedestre_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="bd3b8daf0f2d490ea085822a96f05247" name="4 - TRA Trilha Picada" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_trilha_picada_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="3d7049b15fca42d7b5b5cd6a69e49a44" name="4 - TRA Túnel" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_tunel_a1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="VER" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="c59fe72392574a7aa4252ddadef3aee1" name="4 - VER - Área Verde" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ver&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="852e3a5fcfa540fca5bddae01b750cdf" name="4 - VER Vegetação" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=veg_vegetacao_total&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="f6b741b096424540a8339641d9103317" name="4 - VER Árvore Isolada" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ver_arvore_isolada_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="9d8cb66c4bdc450ea468a3e71944e259" name="4 - VER Jardim" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ver_jardim_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="Outros" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="30b2fd7379a2475a8a5bc52a7e60a38b" name="1 - Ortoimagem Salvador 2016/2017" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Ortoimagem_Salvador_2016_2017&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="812cbfce7dff4615a42650bf69e463bd" name="4 - _Vetores - CDGV Salvador (Área Preliminar)" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=area_cdgv_preliminar&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="4891c02a1f9e4beb8f90e5fe05b7c257" name="1 - Ortoimagem Salvador 2024" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ortoimagem_2024&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="2329bea751cf4c51939cc25bd27dd8bb" name="4 - tra Tunel" checked="Qt::Checked" expanded="1" source="contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_tunel_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows" providerKey="wms">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+        </layer-tree-group>
+    </layer-tree-group>
+    <projectlayers>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>7cd546c3baec40c88592f81e1f6036f4</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=aer&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - AER - Sistema Aeroportuário</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>e05aef33903b4a83895535021ea3eb28</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE - Classes Base do Mapeamento Topográfico em Grandes Escalas</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>c1357639039a489282dc662c065a6072</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_1.1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 - CBGE 1.1</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>309488c7095a449298308796884cbaa0</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=dut&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - DUT - Sistema de Transporte de Dutos</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>6a43c25d08f44ea8a920b5a3f126087b</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EDF - Edificação Total</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>7fb98b15ba1a4030850b75c7bd90dff2</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EMU - Estrutura de Mobilidade Urbana</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>cb9d8071154246e8945b544f2541cc81</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_1-1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 - EMU 1.1</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>e86df307f3574950a5af2adfae0d6e4a</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - ENC - Energia e Comunicação</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>60b2fb37e65e4f72b762f4d7066247cc</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=fer&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - FER - Sistema de Transporte Ferroviário</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>c5df81f81f1b4b0e86181c78e4408c29</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hdv&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HDV - Sistema Hidroviário</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>3b68397ffe614efa983055d8e84d8809</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID - Hidrografia</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>1188d10bc87746a0aae3872f6289efe0</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - LAZ - Cultura e Lazer</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>2b0a98d10c6e49099598cdb015e6ab67</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mds&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>2 - MDS - Modelo Digital de Superfície</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>116047c069fd42b7b2f010049011991a</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=mdt&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>2 - MDT - Modelo Digital de Terreno</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>29c299ae8a0648d4af2bf229235aff23</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - REL - Relevo</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>c80cb0d8060c4bd599d447c78f6c63bb</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - TRA - Sistema de Transporte</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>fd81ba69062b4702906a8cb8ced412fd</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_1-1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 - TRA 1.1</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>c59fe72392574a7aa4252ddadef3aee1</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ver&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - VER - Área Verde</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>5ede68110d974a79be3bc0135e12302b</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDS_Lote_01&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>2 - MDS Lote 01</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>2b540aa4e7b5400d8b3aaff74b7ec955</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDS_Lote_02&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>2 - MDS Lote 02</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>45ec2bfc9b4147ebb9ed376bbdb57ec9</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_01&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>2 - MDT Lote 01</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>373d68e55724437bae3165e46bbe9cfc</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_02&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>2 - MDT Lote 02</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>64fd92e13f4e40e4b30710bed1ab01de</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_03_Continental&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>2 - MDT Lote 03 Continental</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>31c817b8fd7b4c0da14e5d2e2e3defbb</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_03_Ilha_Frades&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>2 - MDT Lote 03 Ilha Frades</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>4a52b1deba1a4fa39cfd1938b496cc54</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=MDT_Lote_03_Ilha_Mare&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>2 - MDT Lote 03 Ilha Mare</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>30b2fd7379a2475a8a5bc52a7e60a38b</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=Ortoimagem_Salvador_2016_2017&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>1 - Ortoimagem Salvador 2016/2017</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>05b672cf89ef46c3b7ba7600982c64c0</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=acesso_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 -  EMU 1.1 Acesso</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>78e74bd427c841d290e14a72637a961d</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=aer_pista_ponto_pouso_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - AER Pista Ponto de Pouso</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>812cbfce7dff4615a42650bf69e463bd</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=area_cdgv_preliminar&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - _Vetores - CDGV Salvador (Área Preliminar)</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>d56b08f8c51442369cfd3dd35caeaaa8</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_area_de_propriedade_particular_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Área de Propriedade Particular</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>1de939715c25497a945cae5c2f51e149</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_area_duto_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Área Duto</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>e207a1c35e03452ea5863a6fe2def6dd</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_area_nao_edificada_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Área Não Edificada</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>7124f053dc7a4218bf672e79308409a3</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_area_uso_especifico_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Área de Uso Específico</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>3ff78a8ac31a42cda142ab435890a709</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_canteiro_central_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Canteiro Central</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>8636af993dcd404e9beae1d7b50bf440</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_cemiterio_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Cemitério</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>c8a4b329a8c24891a0a51adbd27b1b16</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_delimitacao_fisica_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Delimitação Física</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>a84eab4ec62b4d0796c3f70042f4c553</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_deposito_geral_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Depósito Geral</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>3b6eeaade14d40db9cd0fdee669ff869</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_espelho_dagua_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Espelho D'Água</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>efe8a20e7a08499995fe10851055f2ac</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_estacionamento_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Estacionamento</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>fca10aa1d434486cb2172e7509f27249</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_largo_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Largo</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>0496d0883a384ae5a7621d4e320f7031</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_meio_fio_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Meio Fio</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>28900204892e420abf650bca2f0552c6</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_passeio_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Passeio</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>4300dbf75b824c66888a313c47c98813</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_poste_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Poste</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>0a4cb1c3e1b241aa8939f1596bbfdcc5</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_praca_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Praça</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>4e5a6f07dd854e44bd1b8a844f4f3c16</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_quadra_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Quadra</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>e82385068d80411ea7c49a5b78f96cd7</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=cbge_trecho_arruamento_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - CBGE Trecho de Arruamento</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>24152698643d44e8963f9a59a933ff34</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=dut_trecho_duto_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - DUT Trecho de Duto</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>de4beed657d3430e8a79250c8d239784</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_edificacao_cobertura_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EDF Edficação Cobertura</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>d22aeb7d2633488fb01a1cc2fcd305f6</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_edificacao_total&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EDF Edificação (A)</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>4575c0d77413440ca818d9b468b36039</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_edificacao_total_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EDF Edificação (P)</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>d6dcdee78e564d4da15797af91a0b65f</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_marquise_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EDF Edificação Marquise</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>eac9468104394ddea0c44c7915e0d455</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=edf_teto_pavimento_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EDF Teto Pavimento</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>5c4f9739888547cc898a0c11774028b5</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_acesso_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EMU Acesso</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>8d2b13497e5441379b38b538945d8c3d</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_ciclovia_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EMU Ciclovia</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>816408a89a8841dfb3cfb384c4b85517</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_elevador_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EMU Elevador</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>f7a537fe74cb46eca7ba3f5abfce346d</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_escadaria_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EMU Escadaria</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>7e54ce0eeaea4245ae6a843fe15fc264</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_poste_sinalizacao_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EMU Poste de Sinalização</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>947dd714d8424358b4e7e900697daec3</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=emu_rampa_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - EMU Rampa</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>6d0ded64a0b34cb4abf97b88721be2aa</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc_antena_comunic_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - ENC Antena Comunicação</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>b472bcbeee324db38a6a582aeac1a0ca</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc_grupo_transformadores_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - ENC Grupo de Transformadores</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>b225ad3c3b7d4dd7bfdc6a301bcaf592</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc_torre_comunic_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - ENC Torre de Comunicação</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>14da498fc3e445098966467b3b9b2595</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=enc_torre_energia_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - ENC Torre de Energia</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>a9bcd62c935c42cfb157324cf91f1f25</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=escadaria_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 - EMU 1.1 Escadaria</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>450e3b4b8b7d4d4686c818f2eaa3a80a</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=estacionamento_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 - CBGE 1.1 Estacionamento</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>41edbbf78dd841ec85f632543ec93527</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=fer_trecho_ferroviario_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - FER Trecho Ferroviário</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>c792731232714dd4829456ec6490a658</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hdv_atracadouro_terminal_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HDV Atracadouro Terminal</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>e880a2064c1a4fdeabfea31294b3c0a5</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hdv_sinalizacao_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HDV Sinalização Hidroviária</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>18521dc4fadf499e955106ad5739b50a</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_area_umida_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Área Úmida</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>b7a224fb75f1411eba73d9297bfdd3ab</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_banco_areia_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Banco de Areia</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>7db87e9fced04e8892317450a00f2deb</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_barragem_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Barragem</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>5f8b9a0e70ea440eabbc1ff18f02e2f7</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_canal_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Canal</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>b78162d036e14b94ad3e2f754ff1b0b0</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_dique_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Dique Polígono</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>af4c949f31334dff964be7fd5dbd85af</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_dique_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Dique Linha</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>bae37200f9b0474ea656cee5e3d61117</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_ilha_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Ilha</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>c00db54b5f0f45c99828ae59905eaf18</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_massa_dagua_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Massa D'água</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>7bee45d444ff4a85b71f2ff0b080bcbc</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_quebramar_molhe_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Quebramar Molhe</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>a849cb78d8514b10b879f5e739a7ffd4</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_queda_dagua_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Queda D'água</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>84749da67a0d45f887c7ded2f29d922f</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_rocha_em_agua_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Rocha em Água</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>712c234ed252457990188e43b594fdb0</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_sumidouro_vertedouro_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Sumidouro/Vertedouro</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>4b9d669bbb8e4c7f936372aa19b67b49</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_trecho_drenagem_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Trecho Drenagem</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>e496ac689aa44ab984af475d36084329</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_vala_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Vala Polígono</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>e30a605445574e31bb1f56330d575e0f</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=hid_vala_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - HID Vala Linha</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>ca96b390ce3f468bbdfcd10299d3d909</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_arquibancada_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - LAZ Aquibancada</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>f44c23a7c62143229105c4272208494a</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_campo_quadra_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - LAZ Campo Quadra</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>023fdfc225134067990fc63433e11a05</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_deque_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - LAZ Deque</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>02b1e91277ba40319d089447723656d0</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_piscina_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - LAZ Piscina</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>b0b23ee280534cbaa6519382b1d84ef0</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=laz_pista_competicao_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - LAZ Pista de Competição</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>4891c02a1f9e4beb8f90e5fe05b7c257</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ortoimagem_2024&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>1 - Ortoimagem Salvador 2024</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>1ef1157bac95439d9071a81ec03b2e0e</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=passagem_elevada_viaduto_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 - TRA 1.1 Passagem Elevada ou Viaduto</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>dae5ddbfb63c47a0bdff5dc7a1aa7a23</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=passeio_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 - CBGE 1.1 Passeio</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>43f384d0a5ba47ab88f5971cef37bef3</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ponte_11&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 - TRA 1.1 Ponte</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>0e0de88d54fa4c8eafd3d15c0ac231ba</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_aterro_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - REL Aterro</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>0b470a5c15b9400a8d592d20845a68a4</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_corte_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - REL Corte Polígono</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>6386169f237141568bb0e98783d33a85</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_corte_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - REL Corte Linha</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>9ab3213ecef94c049c349a317c713b09</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_curva_nivel_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - REL Curva de Nível</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>3ee7211efffe4c0e8bcb7c1a87fb1040</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_ponto_cotado_altimetrico_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - REL Ponto Cotado Altimétrico</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>ee639a7503b645ee82c6490fb702bef3</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_rocha_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - REL Rocha</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>7482a4863bcc4912922a9d5aa4ba31bd</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=rel_terreno_exposto_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - REL Terreno Exposto</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>48c7cb0a1f914b4e9fcd0ac17f2e157a</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_passagem_elevada_viaduto_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - TRA Passagem Elevada ou Viaduto</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>e7ec7d66e19545af8f28a15d917f425b</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_patio_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - TRA Pátio</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>e83417fae321488da8c46a558faa75a4</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_ponte_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - TRA Ponte(A)</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>a6ace83b25e8423392a165e824efd0cc</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_ponte_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - TRA Ponte(L)</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>caa88948b7bb424fae433e82a984a95c</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_travessia_pedestre_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - TRA Travessia de Pedestre</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>24567b93e665405ab60cba1b116219f3</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_travessia_pedestre_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - TRA Travessia de Pedestre(L)</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>bd3b8daf0f2d490ea085822a96f05247</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_trilha_picada_l&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - TRA Trilha Picada</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>2329bea751cf4c51939cc25bd27dd8bb</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_tunel_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - tra Tunel</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>3d7049b15fca42d7b5b5cd6a69e49a44</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=tra_tunel_a1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - TRA Túnel</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>c69341063e7f47979e659cda7fcf23ed</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=trecho_arruamento_1.1&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>3 - CBGE 1.1 Trecho de Arruamento</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>852e3a5fcfa540fca5bddae01b750cdf</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=veg_vegetacao_total&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - VER Vegetação</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>f6b741b096424540a8339641d9103317</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ver_arvore_isolada_p&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - VER Árvore Isolada</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>9d8cb66c4bdc450ea468a3e71944e259</id>
+            <datasource>contextualWMSLegend=0&amp;crs=EPSG:4674&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ver_jardim_a&amp;styles=&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows</datasource>
+            <layername>4 - VER Jardim</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wms</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+    </projectlayers>
+</qlr>

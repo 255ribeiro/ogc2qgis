@@ -2,7 +2,7 @@
 
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Dict, List, Union
+from typing import Dict, List, Optional, Union
 
 
 class WFSParser:
@@ -20,53 +20,76 @@ class WFSParser:
         self._root = self._tree.getroot()
         self._parse()
     
+    # Known namespace variants used across WFS versions
+    _OWS_NS = [
+        'http://www.opengis.net/ows/1.1',   # WFS 2.0
+        'http://www.opengis.net/ows',        # WFS 1.0 / 1.1
+    ]
+    _WFS_NS = [
+        'http://www.opengis.net/wfs/2.0',
+        'http://www.opengis.net/wfs',
+    ]
+
+    def _find_url_elem(self):
+        """Return the Get element for GetFeature across namespace variants."""
+        xlink = 'http://www.w3.org/1999/xlink'
+        for ows in self._OWS_NS:
+            ns = {'ows': ows, 'xlink': xlink}
+            elem = self._root.find('.//ows:Operation[@name="GetFeature"]//ows:Get', ns)
+            if elem is not None:
+                return elem
+        # Namespace-wildcard fallback (Python 3.8+)
+        return self._root.find('.//{*}Operation[@name="GetFeature"]//{*}Get')
+
     def _parse(self):
         """Parse the WFS capabilities document."""
-        ns = {
-            'wfs': 'http://www.opengis.net/wfs',
-            'ows': 'http://www.opengis.net/ows',
-            'xlink': 'http://www.w3.org/1999/xlink'
-        }
-        
+        xlink = 'http://www.w3.org/1999/xlink'
+
         # Extract server URL
-        url_elem = self._root.find('.//ows:Operation[@name="GetFeature"]//ows:Get', ns)
-        if url_elem is None:
-            url_elem = self._root.find('.//Operation[@name="GetFeature"]//Get')
-        
+        url_elem = self._find_url_elem()
         self.server_url = ''
         if url_elem is not None:
-            self.server_url = url_elem.get('{http://www.w3.org/1999/xlink}href', '')
-        
-        # Clean URL
+            self.server_url = url_elem.get(f'{{{xlink}}}href', '')
         if '?' in self.server_url:
             self.server_url = self.server_url.split('?')[0]
-        
-        # Extract service title
-        service_title = self._root.find('.//ows:ServiceIdentification/ows:Title', ns)
+
+        # Extract service title — try all ows namespace variants
+        service_title = None
+        for ows in self._OWS_NS:
+            ns = {'ows': ows}
+            service_title = self._root.find('.//ows:ServiceIdentification/ows:Title', ns)
+            if service_title is not None:
+                break
         if service_title is None:
-            service_title = self._root.find('.//ServiceIdentification/Title')
+            service_title = self._root.find('.//{*}ServiceIdentification/{*}Title')
         self.service_name = service_title.text if service_title is not None else "WFS Server"
-        
-        # Extract feature types
+
+        # Extract feature types — try all wfs namespace variants
         self.features = []
-        feature_elements = self._root.findall('.//wfs:FeatureType', ns)
+        feature_elements = []
+        for wfs in self._WFS_NS:
+            feature_elements = self._root.findall(f'.//{{{wfs}}}FeatureType')
+            if feature_elements:
+                break
         if not feature_elements:
-            feature_elements = self._root.findall('.//FeatureType')
-        
+            feature_elements = self._root.findall('.//{*}FeatureType')
+
         for feature in feature_elements:
-            # Try different formats
-            name_elem = feature.find('wfs:Name', ns)
+            name_elem = None
+            title_elem = None
+            for wfs in self._WFS_NS:
+                if name_elem is None:
+                    name_elem = feature.find(f'{{{wfs}}}Name')
+                if title_elem is None:
+                    title_elem = feature.find(f'{{{wfs}}}Title')
             if name_elem is None:
-                name_elem = feature.find('Name')
-            
-            title_elem = feature.find('wfs:Title', ns)
+                name_elem = feature.find('{*}Name')
             if title_elem is None:
-                title_elem = feature.find('Title')
-            
+                title_elem = feature.find('{*}Title')
+
             if name_elem is not None and name_elem.text:
                 feature_name = name_elem.text.strip()
                 feature_title = title_elem.text.strip() if (title_elem is not None and title_elem.text) else feature_name
-                
                 self.features.append({
                     'name': feature_name,
                     'title': feature_title
@@ -88,12 +111,29 @@ class WFSParser:
     def save(self, output_file: Union[str, Path]):
         """
         Save as QGIS WFS configuration file.
-        
+
         Args:
             output_file: Path to output XML file
         """
         config = self.to_qgis_config()
         config.save(output_file)
+
+    def save_qlr(self, output_file: Union[str, Path], group_name: Optional[str] = None):
+        """
+        Save as a QGIS Layer Definition (.qlr) with features grouped by category.
+
+        Args:
+            output_file: Path to output .qlr file
+            group_name: Top-level group name (default: service name)
+        """
+        from ogc2qgis.parsers.qlr import WFSQLRWriter
+        writer = WFSQLRWriter(
+            url=self.server_url,
+            service_name=self.service_name,
+            features=self.features,
+            group_name=group_name,
+        )
+        writer.save(output_file)
 
 
 class QGISWFSConfig:

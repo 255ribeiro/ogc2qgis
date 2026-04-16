@@ -103,55 +103,89 @@ def fetch_capabilities(base_url: str, service_type: str, timeout: int = 30) -> O
         return None
 
 
-def fetch_and_convert(base_url: str, output_dir: Optional[Union[str, Path]] = None) -> Dict:
+def fetch_and_convert(
+    base_url: str,
+    output_dir: Optional[Union[str, Path]] = None,
+    base_name: Optional[str] = None,
+    qlr_mode: Optional[str] = None,
+) -> Dict:
     """
     Fetch capabilities from URL and convert to QGIS configs.
-    
+
     Args:
         base_url: Base URL of the OGC service
         output_dir: Directory to save output files (default: current directory)
-        
+        base_name: Prefix for output filenames (default: last URL path segment)
+
     Returns:
-        Dict with service types as keys and config objects as values
+        Dict with service types as keys and output file paths as values (None if skipped)
     """
     import tempfile
     from pathlib import Path
-    
+    from urllib.parse import urlparse
+
     if output_dir is None:
         output_dir = Path.cwd()
     else:
         output_dir = Path(output_dir)
-    
+
     output_dir.mkdir(parents=True, exist_ok=True)
-    
+
+    # Resolve output filename prefix
+    if base_name:
+        url_base_name = base_name
+    else:
+        parsed_url = urlparse(base_url)
+        path_parts = [p for p in parsed_url.path.split('/') if p]
+        url_base_name = path_parts[-1] if path_parts else (parsed_url.hostname or 'output')
+
     results = {}
-    
+
     for service_type in ['WMS', 'WCS', 'WFS']:
         content = fetch_capabilities(base_url, service_type)
-        
+
         if content is None:
             results[service_type.lower()] = None
             continue
-        
+
         # Save to temp file
         with tempfile.NamedTemporaryFile(mode='wb', suffix='.xml', delete=False) as tmp:
             tmp.write(content)
             tmp_path = tmp.name
-        
+
         try:
             # Parse and convert
             parsed = parse_capabilities(tmp_path)
             parser_key = service_type.lower()
-            
-            if parsed[parser_key]:
-                # Generate QGIS config
-                output_file = output_dir / f"qgis_{parser_key}_connections.xml"
-                parsed[parser_key].save(str(output_file))
-                results[parser_key] = str(output_file)
-            else:
+            parser = parsed[parser_key]
+
+            if parser is None:
                 results[parser_key] = None
+                continue
+
+            # Skip if no meaningful data was found
+            if parser_key == 'wms':
+                has_data = bool(parser.server_url or parser.layers)
+            elif parser_key == 'wcs':
+                has_data = bool(parser.server_url or parser.coverages)
+            else:  # wfs
+                has_data = bool(parser.server_url or parser.features)
+
+            if not has_data:
+                results[parser_key] = None
+                continue
+
+            if qlr_mode != 'only':
+                output_file = output_dir / f"{url_base_name}_{parser_key}2qgis.xml"
+                parser.save(str(output_file))
+                results[parser_key] = str(output_file)
+
+            if qlr_mode in ('include', 'only'):
+                qlr_file = output_dir / f"{url_base_name}_{parser_key}2qgis.qlr"
+                parser.save_qlr(str(qlr_file))
+                results[f'{parser_key}_qlr'] = str(qlr_file)
         finally:
             # Clean up temp file
             Path(tmp_path).unlink(missing_ok=True)
-    
+
     return results

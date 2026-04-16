@@ -1,0 +1,115 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+    <layer-tree-group>
+        <custom-properties />
+        <layer-tree-group name="Web Coverage Service" checked="Qt::Checked" expanded="1">
+            <custom-properties />
+            <layer-tree-group name="MDS" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="861262b8484f4d6292e731be8d6408d7" name="2 - MDS Lote 01" checked="Qt::Checked" expanded="1" source="cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDS_Lote_01&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs" providerKey="wcs">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="6230742397eb4c6b99197b710869366e" name="2 - MDS Lote 02" checked="Qt::Checked" expanded="1" source="cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDS_Lote_02&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs" providerKey="wcs">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+            <layer-tree-group name="MDT" checked="Qt::Checked" expanded="0">
+                <custom-properties />
+                <layer-tree-layer id="d1bb8bae09de466ea4e6742765d70aea" name="2 - MDT Lote 01" checked="Qt::Checked" expanded="1" source="cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_01&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs" providerKey="wcs">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="69d5eda1124846ab902778230ebf9bd9" name="2 - MDT Lote 02" checked="Qt::Checked" expanded="1" source="cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_02&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs" providerKey="wcs">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="9fa2fdfb4df0473bba03ad8247b8f4d5" name="2 - MDT Lote 03 Continental" checked="Qt::Checked" expanded="1" source="cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_03_Continental&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs" providerKey="wcs">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="062d920d3c64488091a8584f3e62f76f" name="2 - MDT Lote 03 Ilha Frades" checked="Qt::Checked" expanded="1" source="cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_03_Ilha_Frades&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs" providerKey="wcs">
+                    <custom-properties />
+                </layer-tree-layer>
+                <layer-tree-layer id="10a34ec71b6049a3a07b99b846e78cd7" name="2 - MDT Lote 03 Ilha Mare" checked="Qt::Checked" expanded="1" source="cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_03_Ilha_Mare&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs" providerKey="wcs">
+                    <custom-properties />
+                </layer-tree-layer>
+            </layer-tree-group>
+        </layer-tree-group>
+    </layer-tree-group>
+    <projectlayers>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>861262b8484f4d6292e731be8d6408d7</id>
+            <datasource>cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDS_Lote_01&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs</datasource>
+            <layername>2 - MDS Lote 01</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wcs</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>6230742397eb4c6b99197b710869366e</id>
+            <datasource>cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDS_Lote_02&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs</datasource>
+            <layername>2 - MDS Lote 02</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wcs</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>d1bb8bae09de466ea4e6742765d70aea</id>
+            <datasource>cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_01&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs</datasource>
+            <layername>2 - MDT Lote 01</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wcs</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>69d5eda1124846ab902778230ebf9bd9</id>
+            <datasource>cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_02&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs</datasource>
+            <layername>2 - MDT Lote 02</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wcs</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>9fa2fdfb4df0473bba03ad8247b8f4d5</id>
+            <datasource>cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_03_Continental&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs</datasource>
+            <layername>2 - MDT Lote 03 Continental</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wcs</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>062d920d3c64488091a8584f3e62f76f</id>
+            <datasource>cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_03_Ilha_Frades&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs</datasource>
+            <layername>2 - MDT Lote 03 Ilha Frades</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wcs</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+        <maplayer type="raster" autoRefreshEnabled="0" autoRefreshTime="0">
+            <id>10a34ec71b6049a3a07b99b846e78cd7</id>
+            <datasource>cache=AlwaysNetwork&amp;crs=EPSG:4674&amp;format=&amp;identifier=BAPSalvador__MDT_Lote_03_Ilha_Mare&amp;url=https://geoservicos.inde.gov.br/geoserver/BAPSalvador/wcs</datasource>
+            <layername>2 - MDT Lote 03 Ilha Mare</layername>
+            <keywordList>
+                <value />
+            </keywordList>
+            <provider encoding="">wcs</provider>
+            <vectorjoins />
+            <layerGeometryType>4</layerGeometryType>
+        </maplayer>
+    </projectlayers>
+</qlr>

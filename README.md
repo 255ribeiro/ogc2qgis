@@ -13,6 +13,8 @@ Convert OGC Web Services (WMS, WCS, WFS) GetCapabilities XML to QGIS connection 
 - 🌐 **Remote fetch**: Download capabilities directly from URLs
 - 📦 **Zero dependencies**: Uses only Python standard library
 - 🎯 **QGIS ready**: Generates files ready to import into QGIS
+- 🗂️ **Layer grouping**: Generates `.qlr` Layer Definition files with WMS/WCS/WFS layers organized in category folders
+- 🔍 **Compare tools**: Compare local configs, live services, or server IPs
 - 🔧 **CLI & Library**: Use as command-line tool or Python library
 
 ## 🚀 Quick Start
@@ -35,8 +37,8 @@ ogc2qgis fetch https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows
 # Process multiple files
 ogc2qgis convert ows.xml ows_wcs.xml ows_wfs.xml
 
-# Specify output directory
-ogc2qgis convert capabilities.xml -o /path/to/output
+# Specify output directory and filename prefix
+ogc2qgis convert capabilities.xml -o /path/to/output -p myserver
 ```
 
 ### Python Library Usage
@@ -46,86 +48,212 @@ from ogc2qgis import parse_capabilities, fetch_and_convert
 
 # Parse local file
 configs = parse_capabilities('capabilities.xml')
-# Returns: {'wms': QGISConfig, 'wcs': None, 'wfs': None}
+# Returns: {'wms': WMSParser, 'wcs': None, 'wfs': None}
 
 # Fetch from URL
-configs = fetch_and_convert('https://servidor.com/ows')
+results = fetch_and_convert('https://servidor.com/ows')
 
-# Save to file
+# Save connection XML
 if configs['wms']:
-    configs['wms'].save('qgis_wms_connections.xml')
+    configs['wms'].save('wms2qgis.xml')
+
+# Save WFS as grouped layer definition (.qlr)
+if configs['wfs']:
+    configs['wfs'].save_qlr('wfs2qgis.qlr')
 ```
 
 ## 📖 Documentation
 
 ### Supported Services
 
-- **WMS** (Web Map Service) - Map visualization
-- **WCS** (Web Coverage Service) - Raster data download
-- **WFS** (Web Feature Service) - Vector data access
+- **WMS** (Web Map Service) 1.3.0 — Map visualization
+- **WCS** (Web Coverage Service) 1.1.x / 2.0.x — Raster data download
+- **WFS** (Web Feature Service) 1.x / 2.0 — Vector data access
 
 ### Output Files
 
-The tool generates QGIS-compatible XML files:
-- `qgis_wms_connections.xml` - WMS connections
-- `qgis_wcs_connections.xml` - WCS connections
-- `qgis_wfs_connections.xml` - WFS connections
+Output filenames are derived from the input filename (or URL path segment):
+
+| Input | Output files |
+| --- | --- |
+| `ogc2qgis convert capabilities.xml` | `capabilities_wms2qgis.xml` |
+| `ogc2qgis fetch .../BAPSalvador/ows` | `ows_wms2qgis.xml`, `ows_wcs2qgis.xml`, `ows_wfs2qgis.xml`, `ows_wfs2qgis.qlr` |
+
+Files are only created when the service type is present in the source — if a server has no WCS data, `*_wcs2qgis.xml` is skipped.
 
 ### Import into QGIS
 
-1. Open QGIS
-2. Go to **Settings** → **Options** → **System**
-3. In **Service Connections** section, click **Import**
-4. Select the generated XML file(s)
-5. Done! Servers appear in your connection lists
+**Connection XML (WMS / WCS / WFS):**
+
+1. Go to **Settings → Options → System**
+2. In **Service Connections**, click **Import**
+3. Select the generated `*_wms2qgis.xml` / `*_wcs2qgis.xml` / `*_wfs2qgis.xml`
+
+**Grouped Layer Definition (WMS / WCS / WFS — requires `--qlr-include` or `--qlr-only`):**
+
+1. Go to **Layer → Add from Layer Definition File**
+2. Select the generated `*_wms2qgis.qlr` / `*_wcs2qgis.qlr` / `*_wfs2qgis.qlr`
+3. All layers are added to the map, pre-organized in category folders
 
 ## 🔧 Advanced Usage
 
 ### CLI Options
 
-```bash
-ogc2qgis convert --help
-
-Usage: ogc2qgis convert [OPTIONS] FILES...
-
-Options:
-  -o, --output-dir PATH  Output directory for generated files
-  -p, --prefix TEXT      Prefix for output filenames
-  -v, --verbose          Verbose output
-  --help                 Show this message and exit
+```text
+ogc2qgis convert FILES... [-o DIR] [-p PREFIX] [--qlr-include | --qlr-only] [-v]
+ogc2qgis fetch URL        [-o DIR] [-p PREFIX] [--qlr-include | --qlr-only] [-v]
+ogc2qgis compare A B      [--comp_web] [--comp_ip] [--service-type wms|wcs|wfs]
 ```
+
+#### `convert`
+
+| Option | Description |
+| --- | --- |
+| `-o, --output-dir PATH` | Output directory (default: current directory) |
+| `-p, --prefix TEXT` | Filename prefix (default: input filename stem) |
+| `--qlr-include` | Generate XML connection file **and** `.qlr` layer definition |
+| `--qlr-only` | Generate **only** the `.qlr` layer definition (skip XML) |
+| `-v, --verbose` | Verbose output |
+
+#### `fetch`
+
+| Option | Description |
+| --- | --- |
+| `-o, --output-dir PATH` | Output directory (default: current directory) |
+| `-p, --prefix TEXT` | Filename prefix (default: last URL path segment) |
+| `--qlr-include` | Generate XML connection file **and** `.qlr` layer definition |
+| `--qlr-only` | Generate **only** the `.qlr` layer definition (skip XML) |
+| `-v, --verbose` | Verbose output |
+
+#### `compare`
+
+| Option | Description |
+| --- | --- |
+| *(no flag)* | Compare two local QGIS config XML files |
+| `--comp_web` | Fetch both URLs and compare by reported server URL, service name, and layer set |
+| `--comp_ip` | Compare by resolving hostnames to IP addresses |
+| `--service-type` | Force a service type for `--comp_web` (default: auto-detect) |
+
+```bash
+# XML only (default)
+ogc2qgis fetch https://server.com/ows
+
+# XML + .qlr
+ogc2qgis fetch https://server.com/ows --qlr-include
+
+# .qlr only (no XML)
+ogc2qgis fetch https://server.com/ows --qlr-only
+
+# Compare two local config files
+ogc2qgis compare old_wfs.xml new_wfs.xml
+
+# Compare two live services (fetches GetCapabilities from both)
+ogc2qgis compare --comp_web https://server-a.com/ows https://server-b.com/ows
+
+# Compare by IP (DNS resolution)
+ogc2qgis compare --comp_ip https://server-a.com/ows https://server-b.com/ows
+
+# Force service type for web comparison
+ogc2qgis compare --comp_web --service-type wfs https://a.com/ows https://b.com/ows
+```
+
+**`--comp_web` verdicts:**
+
+| Verdict | Meaning |
+| --- | --- |
+| `identical` | Same reported server URL, name, and complete layer set |
+| `same_server` | Same reported URL but different name or layers |
+| `different` | Different servers |
+
+**`--comp_ip` verdicts:**
+
+| Verdict | Meaning |
+| --- | --- |
+| `identical` | Same hostname and same resolved IPs |
+| `same_host` | Identical hostname |
+| `same_ip` | Different hostnames but share a common IP |
+| `different` | Hostnames resolve to different IPs |
 
 ### Library API
 
 ```python
-from ogc2qgis.parsers import WMSParser, WCSParser, WFSParser
+from ogc2qgis import (
+    WMSParser, WCSParser, WFSParser,
+    WFSQLRWriter,
+    parse_capabilities, detect_service_type, fetch_and_convert,
+    compare_configs, compare_web, compare_ip,
+)
 
-# Parse WMS
-parser = WMSParser('ows.xml')
-print(f"Service: {parser.service_name}")
-print(f"URL: {parser.server_url}")
-print(f"Layers: {len(parser.layers)}")
+# Parse any capabilities file (auto-detects type)
+configs = parse_capabilities('capabilities.xml')
 
-# Generate config
-config = parser.to_qgis_config()
-config.save('output.xml')
+# WFS: save connection XML + grouped layer definition
+parser = configs['wfs']
+if parser:
+    parser.save('wfs2qgis.xml')
+    parser.save_qlr('wfs2qgis.qlr', group_name='My WFS Server')
 
-# Auto-detect service type
-from ogc2qgis.core import detect_service_type
-service_type = detect_service_type('capabilities.xml')  # Returns 'wms', 'wcs', 'wfs', or None
+# Compare local configs
+result = compare_configs('file1.xml', 'file2.xml')
+print(result['verdict'])        # 'identical' | 'partial' | ...
+
+# Compare live services
+result = compare_web(
+    'https://server-a.com/ows',
+    'https://server-b.com/ows',
+    service_type='wfs',         # optional
+)
+print(result['verdict'])        # 'identical' | 'same_server' | 'different'
+print(result['layer_overlap_pct'])
+
+# Compare by IP
+result = compare_ip('https://server-a.com/ows', 'https://server-b.com/ows')
+print(result['same_ip'])        # True / False
+print(result['common_ips'])     # ['192.168.1.1', ...]
+```
+
+### Layer Grouping (`.qlr`)
+
+`.qlr` files can be generated for all three service types using `--qlr-include` or `--qlr-only`.
+Layers are automatically grouped into category folders based on their title pattern.
+The pattern `N - CODE description` (e.g. `3 - CBGE 1.1 Passeio`) extracts `CBGE` as the folder name.
+When no pattern is detected, layers are placed flat under the top-level group.
+
+| Service | Layer type | Grouping |
+| --- | --- | --- |
+| WFS | vector | category codes from titles (e.g. CBGE, HID, TRA) |
+| WMS | raster | category codes from titles (same pattern, when present) |
+| WCS | raster | category codes from titles (same pattern, when present) |
+
+```python
+from ogc2qgis.parsers.qlr import WFSQLRWriter, WMSQLRWriter, WCSQLRWriter
+
+# WFS
+WFSQLRWriter(url='https://server.com/wfs', service_name='My WFS',
+             features=[{'name': 'ws:rivers', 'title': '1 - HID Rivers'}]).save('wfs.qlr')
+
+# WMS
+WMSQLRWriter(url='https://server.com/wms', service_name='My WMS',
+             layers=[{'name': 'layer1', 'title': '2 - TRA Road'}]).save('wms.qlr')
+
+# WCS
+WCSQLRWriter(url='https://server.com/wcs', service_name='My WCS',
+             coverages=[{'identifier': 'mds_01', 'title': 'MDS Lote 01'}]).save('wcs.qlr')
 ```
 
 ## 🌐 Real World Example
 
 ```bash
-# INDE Brazil - Salvador Geographic Data
 ogc2qgis fetch https://geoservicos.inde.gov.br/geoserver/BAPSalvador/ows
 
 # Output:
-# ✅ Downloaded WMS capabilities (111 layers)
-# ✅ Downloaded WCS capabilities (7 coverages)
-# ✅ Generated qgis_wms_connections.xml
-# ✅ Generated qgis_wcs_connections.xml
+# ✓ ows_wms2qgis.xml  (111 layers)
+# ✓ ows_wcs2qgis.xml  (7 coverages)
+# ✓ ows_wfs2qgis.xml  (server connection)
+# ✓ ows_wfs2qgis.qlr  (84 layers in 14 category folders)
+#
+# Import connections: Settings → Options → System → Service Connections → Import
+# Import grouped WFS: Layer → Add from Layer Definition File (.qlr)
 ```
 
 ## 🧪 Development
@@ -158,12 +286,8 @@ Contributions welcome! Please feel free to submit a Pull Request.
 
 ## 🔗 Links
 
-- **PyPI**: https://pypi.org/project/ogc2qgis/
-- **Source Code**: https://github.com/255ribeiro/ogc2qgis
-- **Issue Tracker**: https://github.com/255ribeiro/ogc2qgis/issues
-- **QGIS**: https://qgis.org/
-- **OGC Standards**: https://www.ogc.org/
-
-## 📊 Status
-
-This project is actively maintained. If you encounter any issues or have feature requests, please open an issue on GitHub.
+- **PyPI**: [pypi.org/project/ogc2qgis](https://pypi.org/project/ogc2qgis/)
+- **Source Code**: [github.com/255ribeiro/ogc2qgis](https://github.com/255ribeiro/ogc2qgis)
+- **Issue Tracker**: [github.com/255ribeiro/ogc2qgis/issues](https://github.com/255ribeiro/ogc2qgis/issues)
+- **QGIS**: [qgis.org](https://qgis.org/)
+- **OGC Standards**: [ogc.org](https://www.ogc.org/)

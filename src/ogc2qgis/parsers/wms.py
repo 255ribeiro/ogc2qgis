@@ -2,7 +2,7 @@
 
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Dict, List, Union
+from typing import Dict, List, Optional, Union
 
 
 class WMSParser:
@@ -87,14 +87,19 @@ class WMSParser:
         )
     
     def save(self, output_file: Union[str, Path]):
-        """
-        Save as QGIS WMS configuration file.
-        
-        Args:
-            output_file: Path to output XML file
-        """
+        """Save as QGIS WMS configuration file."""
         config = self.to_qgis_config()
         config.save(output_file)
+
+    def save_qlr(self, output_file: Union[str, Path], group_name: Optional[str] = None):
+        """Save as a QGIS Layer Definition (.qlr) with layers grouped by category."""
+        from ogc2qgis.parsers.qlr import WMSQLRWriter
+        WMSQLRWriter(
+            url=self.server_url,
+            service_name=self.service_name,
+            layers=self.layers,
+            group_name=group_name,
+        ).save(output_file)
 
 
 class QGISWMSConfig:
