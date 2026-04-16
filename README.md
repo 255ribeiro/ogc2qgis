@@ -91,7 +91,11 @@ Files are only created when the service type is present in the source — if a s
 
 **Grouped Layer Definition (WMS / WCS / WFS — requires `--qlr-include` or `--qlr-only`):**
 
-1. Go to **Layer → Add from Layer Definition File**
+Option A — drag and drop the `.qlr` file onto the QGIS layer panel or map canvas.
+
+Option B — menu:
+
+1. Go to **Layer → Add Layer → Add from Layer Definition File...**
 2. Select the generated `*_wms2qgis.qlr` / `*_wcs2qgis.qlr` / `*_wfs2qgis.qlr`
 3. All layers are added to the map, pre-organized in category folders
 
